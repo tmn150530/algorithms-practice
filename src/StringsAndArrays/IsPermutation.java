@@ -9,6 +9,7 @@ public class IsPermutation {
         testPermutation("comet", "temoc");
         testPermutation("Tam", "Nguyen");
         testPermutation("devil", "lived");
+        testPermutation("bottle", "telboo");
     }
 
     public static void testPermutation(String string1, String string2) {
