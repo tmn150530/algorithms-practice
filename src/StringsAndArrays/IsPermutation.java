@@ -17,7 +17,7 @@ public class IsPermutation {
                 string2 + "\": " + isPermutation(string1, string2));
     }
 
-    // Solution is O(n) time complexity, O(n) space complexity
+    // Solution is O(n) time complexity
     public static boolean isPermutation(String string1, String string2) {
         // Micro-optimization
         if (string1.length() != string2.length()) {

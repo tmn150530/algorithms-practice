@@ -1,11 +1,11 @@
 package StringsAndArrays;
 
-// Replace spaces in a character array with %20 with constant space complexity.
+// Replace spaces in a character array with '%20'. Constant space complexity.
 
 public class URLify {
     public static void main(String[] args) {
-        System.out.println(urilify("Mr John Smith    ".toCharArray(), 13));
-        System.out.println(urilify("The quick brown fox jumped over the lazy dog                ".toCharArray(), 44));
+        System.out.println(urilify("Mr John Smith          ".toCharArray(), 13));
+        System.out.println(urilify("The quick brown fox jumped over the lazy dog                   ".toCharArray(), 44));
     }
 
     public static char[] urilify(char[] str, int trueSize) {
